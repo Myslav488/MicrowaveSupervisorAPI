@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "microwavesupervisorapi.client", "microwavesupervisorapi.client\microwavesupervisorapi.client.esproj", "{C6C50BF6-AA9E-94B2-7214-E10088A34899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrowaveSupervisorAPI.Server", "MicrowaveSupervisorAPI.Server\MicrowaveSupervisorAPI.Server.csproj", "{DD2542AA-95CE-444E-A6FE-132D19D1F755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6C50BF6-AA9E-94B2-7214-E10088A34899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C50BF6-AA9E-94B2-7214-E10088A34899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C50BF6-AA9E-94B2-7214-E10088A34899}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C6C50BF6-AA9E-94B2-7214-E10088A34899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C50BF6-AA9E-94B2-7214-E10088A34899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C50BF6-AA9E-94B2-7214-E10088A34899}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DD2542AA-95CE-444E-A6FE-132D19D1F755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2542AA-95CE-444E-A6FE-132D19D1F755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2542AA-95CE-444E-A6FE-132D19D1F755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2542AA-95CE-444E-A6FE-132D19D1F755}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {466DDCDE-A6CD-43B8-BB98-2DF85B3D1278}
+	EndGlobalSection
+EndGlobal

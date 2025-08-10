@@ -1,0 +1,6 @@
+@MicrowaveSupervisorAPI.Server_HostAddress = http://localhost:5220
+
+GET {{MicrowaveSupervisorAPI.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
