@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrowaveSupervisorAPI.Server", "MicrowaveSupervisorAPI.Server\MicrowaveSupervisorAPI.Server.csproj", "{DD2542AA-95CE-444E-A6FE-132D19D1F755}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrowaveSupervisorAPI.Tests", "MicrowaveSupervisorAPI.Tests\MicrowaveSupervisorAPI.Tests.csproj", "{15A18D6F-E925-41C9-A99F-3FC9B9B18E90}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DD2542AA-95CE-444E-A6FE-132D19D1F755} = {DD2542AA-95CE-444E-A6FE-132D19D1F755}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
