@@ -14,7 +14,7 @@
 
         /// Turns oƯ the Microwave heater element
         /// </summary>
-        void TurnOƯHeater();
+        void TurnOffHeater();
 
         /// <summary>
         /// Indicates if the door to the Microwave oven is open or closed

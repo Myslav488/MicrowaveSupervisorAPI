@@ -1,3 +1,7 @@
+using MicrowaveSupervisorAPI.Server.Interfaces;
+using MicrowaveSupervisorAPI.Server.Controllers;
+using MicrowaveSupervisorAPI.Server.Hardware;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +10,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Register the IMicrowaveOvenHW mock as a singleton
+builder.Services.AddSingleton<IMicrowaveOvenHW, MicrowaveOven>();
 
 var app = builder.Build();
 
