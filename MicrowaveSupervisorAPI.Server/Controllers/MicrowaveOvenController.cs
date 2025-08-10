@@ -14,7 +14,7 @@ namespace MicrowaveSupervisorAPI.Server.Controllers
         private bool _isHeaterRunning;
         private int _remainingCookingTimeSeconds;
         private System.Timers.Timer? _cookingTimer;
-        private readonly object _lock = new object(); // For thread-safe state management
+        private readonly object _lock = new object(); 
 
         // Internal state for light control
         private bool _isLightOn;
@@ -24,7 +24,7 @@ namespace MicrowaveSupervisorAPI.Server.Controllers
             _microwave = microwave;
             _isHeaterRunning = false;
             _remainingCookingTimeSeconds = 0;
-            _isLightOn = false; // Initial light state
+            _isLightOn = false;
 
             // Subscribe to hardware events
             _microwave.DoorOpenChanged += OnDoorOpenChanged;

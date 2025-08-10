@@ -1,6 +1,5 @@
-using MicrowaveSupervisorAPI.Server.Interfaces;
-using MicrowaveSupervisorAPI.Server.Controllers;
 using MicrowaveSupervisorAPI.Server.Hardware;
+using MicrowaveSupervisorAPI.Server.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
